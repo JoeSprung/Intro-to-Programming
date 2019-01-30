@@ -1,0 +1,18 @@
+//@J Tasty 1/30/19
+/*
+ * This is a multiline comment.
+ * Hitting enter adds more lines to the comment
+ * 
+ * This is where you would put and explanation of what your code does
+ * this code, prints out a message
+ */
+/**
+ * This is called a java doc comment.
+ */
+public class HelloWorld
+{
+  public static void main (String[] args) //this is an inline comment
+  {
+      System.out.println("Hello World");
+  }
+}
