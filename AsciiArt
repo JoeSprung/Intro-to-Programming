@@ -1,0 +1,57 @@
+//@J Tasty 1/30/19
+/*
+ * This is a multiline comment.
+ * Hitting enter adds more lines to the comment
+ * 
+ * This is where you would put and explanation of what your code does
+ * this code, prints out a message
+ */
+/**
+ * This is called a java doc comment.
+ */
+public class PrintAssignment
+{
+  public static void main (String[] args) //this is an inline comment
+  {
+      System.out.println("       .--'''''''''--.");
+      System.out.println("    .'      .---.      '.");
+      System.out.println("   /    .-----------.   \\");
+      System.out.println("  /        .-----.       \\");
+      System.out.println("  |       .-.   .-.      |");
+      System.out.println("  |      /   \\ /   \\      |");
+      System.out.println("  \\     | .-. | .-. |    /");
+      System.out.println("    '-._| | | | | | |_.-'");
+      System.out.println("        | '-' | '-' |");
+      System.out.println("         \\___/ \\___/");
+      System.out.println("      _.-'  /   \\  `-._");
+      System.out.println("    .' _.--|     |--._ '.");
+      System.out.println("    ' _...-|     |-..._ '");
+      System.out.println("           |     |");
+      System.out.println("           '.___.'");
+      System.out.println("             | |");
+      System.out.println("            _| |_");
+      System.out.println("           /\\( )/\\");
+      System.out.println("          /  ` '  \\");
+      System.out.println("         | |     | |");
+      System.out.println("         '-'     '-'");
+      System.out.println("         | |     | |");
+      System.out.println("         | |     | |");
+      System.out.println("         | |-----| |");
+      System.out.println("      .`/  |     | |/`.");
+      System.out.println("      |    |     |    |");
+      System.out.println("      '._.'| .-. |'._.'");
+      System.out.println("            \\ | /");
+      System.out.println("            \\ | /");
+      System.out.println("            | | |");
+      System.out.println("            | | |");
+      System.out.println("            | | |");
+      System.out.println("           /| | |\\");
+      System.out.println("         .'_| | |_`.");
+      System.out.println("         `. | | | .'");
+      System.out.println("      .    /  |  \\    .");
+      System.out.println("     /o`.-'  / \\  `-.`o\\");
+      System.out.println("    /o  o\\ .'   `. /o  o\\");
+      System.out.println("    `.___.'       `.___.'");
+      System.out.println(" TFW when they skip to Sicko Mode instead of Sweet Victory in the Half Time Show");
+  }
+}
