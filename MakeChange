@@ -32,6 +32,16 @@ public class MakeChange
         int afterNickles = cents % 5;
         int numPennies = cents / 1;
         int afterPennies = cents % 1;
+        
+        System.out.println("The number of twenties is: "+ numTwenties);
+        System.out.println("The number of tens is: "+ numTens);
+        System.out.println("The number of fives is: "+ numFives);
+        System.out.println("The number of ones is: "+ numOnes);
+        System.out.println("The number of quaters is: "+ numQuarters);
+        System.out.println("The number of dimes is: "+ numDimes);
+        System.out.println("The number of nickles is: "+ numNickles);
+        System.out.println("The number of pennies is: "+ numPennies);
+
 
     }
 }
