@@ -1,0 +1,37 @@
+
+/**
+ * Write a description of class MakeChange here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+import java.util.Scanner;
+public class MakeChange
+{
+    public static void main(String [] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Please enter a dollar ammount");
+        int dollars = in.nextInt();
+        int numTwenties = dollars / 20;
+        int afterTwenties = dollars % 20;
+        int numTens = afterTwenties / 10;
+        int afterTens = dollars % 10;
+        int numFives = afterTens / 5; 
+        int afterFives = dollars % 5;
+        int numOnes = afterFives / 1;
+        int afterOnes = dollars % 1;
+        
+        System.out.println("Please enter a cents ammount");
+        int cents = in.nextInt();
+        int numQuarters = cents / 25;
+        int afterQuaters = cents % 25;
+        int numDimes = cents / 10;
+        int afterDimes = cents % 10;
+        int numNickles = cents / 5;
+        int afterNickles = cents % 5;
+        int numPennies = cents / 1;
+        int afterPennies = cents % 1;
+
+    }
+}
