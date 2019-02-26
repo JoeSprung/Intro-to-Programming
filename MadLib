@@ -1,0 +1,52 @@
+import java.util.Scanner;
+/**
+ * Write a description of class MadLib here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class MadLib
+{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Welcome to Madlibs! Enter a name!");
+        String name = in.nextLine();
+        
+        
+        System.out.println("Now enter a number!");
+        String number = in.nextLine();
+        
+        
+        System.out.println("Now enter an adverb!");
+        String adverb = in.nextLine();
+        
+        
+        System.out.println("Now enter a verb!");
+        String verb = in.nextLine();
+        
+        
+        System.out.println("Enter another verb!");
+        String verb2 = in.nextLine();
+        
+        
+        System.out.println("Now enter a proper noun!");
+        String noun = in.nextLine();
+        
+        
+        System.out.println("Enter a noun!");
+        String noun2 = in.nextLine();
+        
+        
+        System.out.println("Now enter a color!");
+        String color = in.nextLine();
+        
+        System.out.println(name + " was " + adverb + verb + " at such a high rate that the earth's crust shattered");
+        System.out.println("Thousands of lives were lost in the process, suddenly a " + noun + " exited from the broken earth.");
+        System.out.println(noun + " decided that it must " + verb2 + ".");
+        System.out.println(name + " had only one option left." + name + " pulled out a giant " + noun2 + " that was over " + number + " feet long!");
+        System.out.println(name + " was hit with " + noun2 + " so hard that they turned " + color + ".");
+        System.out.println("but since that color was poisonous to " + name + " they died.");
+        System.out.println("the end");
+    }
+}
