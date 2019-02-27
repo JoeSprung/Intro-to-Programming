@@ -1,0 +1,24 @@
+/**
+ * Joe Sprung (aka J Tasty)
+ * This is gonna be epic
+ */
+
+import java.util.Scanner;
+
+public class EmailSplit
+{
+    public static void main(String [] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter an email address or I'll shoot!");
+        String emailAddress = in.next();//no spaces allowed
+        int loc = emailAddress.indexOf('@');
+        int len = emailAddress.length(); // finds length of address
+        
+        //Print the username
+        System.out.println("The username is :" + emailAddress.substring(0,loc));
+        
+        //Print the domain
+        System.out.println("Domain:" + emailAddress.substring(loc + 1)); //goes from loc to the end
+    }
+}
