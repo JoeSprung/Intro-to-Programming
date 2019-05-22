@@ -1,0 +1,84 @@
+/**
+ * Write a description of class Avengers here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Avenger
+{
+   private String name;
+   private boolean isDusted;
+   private int numMovies;
+   private int powerLevel;
+   
+    public Avenger() //default Avenger
+   {
+        name = "Iron Man";
+        isDusted = false;
+        numMovies = 10;
+   }
+   
+   public Avenger(String s, boolean d, int n, int p)
+   {
+       name = s;
+       isDusted = d;
+       numMovies = n;
+       powerLevel = p;
+   }
+   
+   public String getName()
+   {
+       return name;
+   }
+   
+   public boolean getIsDusted()
+   {
+       return isDusted;
+   }
+   
+   public int getNumMovies()
+   {
+       return numMovies;
+   }
+   
+   public void addMovie()
+   {
+       numMovies ++;
+   }
+   
+   public int getPowerLevel()
+   {
+       return powerLevel;
+   }
+   
+   
+   public String toString()
+   {
+       return this.getName() + " has appeared in " + this.getNumMovies() + " movies " + 
+       "and it is " + this.isDusted + " that they were dusted.";
+       
+   }
+   public static boolean moreMovies(Avenger a2, Avenger a1)
+   {
+        if(a2.getNumMovies() > a1.getNumMovies())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+   }
+   
+   public static void wouldWin (Avenger a1, Avenger a2)
+   {
+       if(a1.getPowerLevel() > a2.getPowerLevel())
+       {
+           System.out.println(a1.getName() + " Got the Epic Win");
+       }
+       else
+       {
+           System.out.println(a2.getName() + " Got the Epic Win");
+       }
+   }
+}
