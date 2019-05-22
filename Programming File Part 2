@@ -1,0 +1,37 @@
+/**
+ * Write a description of class LoveYou3000 here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Tester
+{
+    public static void main(String [] args)
+    {
+        Avenger a1 = new Avenger("Captain Marvel", false, 2, 19);
+        Avenger a2 = new Avenger("Spider Man", true, 4, 11);
+        Avenger a3 = new Avenger("Iron Man", false, 10, 14);
+        Avenger a4 = new Avenger("Captain America", false, 8, 13);
+        Avenger a5 = new Avenger("Thor", false, 8, 20);
+        Avenger a6 = new Avenger("Hulk", false, 8, 18);
+        Avenger a7 = new Avenger("Starlord", true, 4, 4);
+        Avenger a8 = new Avenger("Groot", true, 4, 8);
+        Avenger a9 = new Avenger("Bucky", true, 5, 7);
+        Avenger a10 = new Avenger("Drax", true, 4, 3);
+        Avenger a11 = new Avenger("Doctor Strange", true, 4, 17);
+        Avenger a12 = new Avenger("Black Panther", true, 4, 12);
+        Avenger a13 = new Avenger("Hawkeye", false, 5, 6);
+        Avenger a14 = new Avenger("Black Widow", false, 8, 1);
+        Avenger a15 = new Avenger("War Machine", false, 8, 9);
+        Avenger a16 = new Avenger("Rocket Raccoon", false, 4, 2);
+        Avenger a17 = new Avenger("Gamora", false, 4, 5);
+        Avenger a18 = new Avenger("Ant-Man", false, 5, 15);
+        Avenger a19 = new Avenger("Scarlet Witch", true, 4, 10);
+        Avenger a20 = new Avenger("Vision", false, 4, 16);
+        
+        
+        System.out.println();
+        
+        Avenger.wouldWin(a1,a5);
+    }
+}
